@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="bg-[#007CBD] fixed w-screen py-4 px-16 md:flex justify-between items-center hidden">
+    <div class="bg-[#007CBD] z-20 fixed w-screen py-4 px-16 md:flex justify-between items-center hidden">
       <a href="index.html">
         <img src="./asset/LOGO DBPC2023.png" alt="logo detik" class="w-40" />
       </a>
       <div class="flex space-x-8 text-white items-center cursor-pointer">
-        <p>About</p>
-        <p>Mechanism</p>
-        <p>Latest Update</p>
-        <button class="px-5 rounded py-2 text-[#007CBD] bg-white">
+        <!-- <p>About</p> -->
+        <a href="#about-detik">About</a>
+        <a href="#mekanisme">Mechanism</a>
+        <a href="#update">Latest Update</a>
+        <button class="px-5 rounded-full py-2 text-[#007CBD] bg-white">
           <a href="registrasi.html">Register</a>
         </button>
       </div>
@@ -27,7 +28,7 @@
       <p class="md:w-[53%] md:text-center">Detikfinance memberikan ruang kepada para startup di Indonesia untuk menunjukkan, serta mempromosikan brand mereka untuk mendapatkan perhatian dari venture capital atau angel investor</p>
       <button class="px-4 mr-auto md:mr-0 py-3 rounded font-medium bg-[#3EB7DD]">Daftarkan startup kamu</button>
     </div>
-    <div class="flex-col gap-y-6 md:flex-row items-center py-4 md:py-24 gap-x-8 md:w-3/4 flex md:mx-auto mx-4">
+    <div class="flex-col gap-y-6 md:flex-row items-center py-4 md:py-24 gap-x-8 md:w-3/4 flex md:mx-auto mx-4" id="about-detik">
       <img src="./asset/Rectangle 9.png" alt="asset 2" class="h-48" />
       <div class="space-y-8">
         <p class="text-[#007CBD] font-bold text-xl">About Detikfinance Business Plan Competition 2023</p>
@@ -61,7 +62,7 @@
         </div>
       </div>
     </div>
-    <div class="mekanisme py-16 gap-y-8">
+    <div id="mekanisme" class="mekanisme py-16 gap-y-8">
       <p class="text-white text-4xl md:w-2/3 md:mx-auto mx-10 font-semibold mb-5">Mekanisme</p>
       <div class="flex flex-col md:w-2/3 mx-auto gap-y-5">
         <div class="mx-4 flex flex-col md:flex-row">
@@ -189,7 +190,7 @@
       </div>
       <button class="py-4 px-8 mx-auto bg-[#3EB7DD] rounded text-white font-semibold">Daftarkan startup kamu</button>
     </div>
-    <div class="bg-[#F4FBFF] px-8 gap-y-10 md:pb-16 md:px-44">
+    <div class="bg-[#F4FBFF] px-8 gap-y-10 md:pb-16 md:px-44" id="update">
       <p class="font-bold text-3xl text-center md:text-left py-8 text-[#007CBD]">LATEST UPDATE</p>
       <div class="grid md:grid-cols-3 gap-6">
         <div class="space-y-2 cursor-pointer group p-2">
